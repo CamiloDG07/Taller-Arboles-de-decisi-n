@@ -32,17 +32,19 @@ Los datos sintéticos están escritos dentro del cuaderno e Iris se carga con
 | `taller_arboles_decision.ipynb` | Cuaderno con los cálculos, el árbol, las métricas, el experimento con Iris y el costo computacional, con sus salidas |
 | `informe/informe_taller_arboles.pdf` | Informe del taller con el procedimiento, los resultados y las conclusiones |
 | `resultados/fig_01_datos_candidatas.png` | Datos sintéticos y preguntas candidatas |
-| `resultados/fig_02_comparacion_gini.png` | Reducción de impureza de las candidatas y por umbral |
-| `resultados/fig_03_arbol_manual.png` | Árbol construido a mano |
-| `resultados/fig_04_mapa_decision.png` | Regiones de decisión y casos nuevos |
-| `resultados/fig_05_metricas_hipoteticas.png` | Matriz de confusión y métricas del ejercicio de evaluación |
-| `resultados/fig_06_clase_mayoritaria.png` | Modelo que siempre predice la clase mayoritaria |
-| `resultados/fig_07_plot_tree_sintetico.png` | Árbol de `scikit-learn` sobre los 12 casos |
-| `resultados/fig_08_iris_particiones.png` | Iris y particiones estratificadas |
-| `resultados/fig_09_iris_candidatos.png` | Comparación de los tres candidatos |
-| `resultados/fig_10_iris_prueba.png` | Evaluación en prueba y comparación con la referencia |
-| `resultados/fig_11_iris_arbol_seleccionado.png` | Árbol seleccionado en Iris |
-| `resultados/fig_12_costo_computacional.png` | Tiempo de ajuste, de predicción y peso de los modelos |
+| `resultados/fig_02_divisiones_candidatas.png` | División de los 12 casos con cada pregunta candidata (grafo con ID, conteos y Gini) |
+| `resultados/fig_03_comparacion_gini.png` | Reducción de impureza de las candidatas y por umbral |
+| `resultados/fig_04_busqueda_hijo.png` | Divisiones candidatas del hijo izquierdo |
+| `resultados/fig_05_arbol_manual.png` | Árbol construido a mano |
+| `resultados/fig_06_mapa_decision.png` | Regiones de decisión y casos nuevos |
+| `resultados/fig_07_metricas_hipoteticas.png` | Matriz de confusión y métricas del ejercicio de evaluación |
+| `resultados/fig_08_clase_mayoritaria.png` | Modelo que siempre predice la clase mayoritaria |
+| `resultados/fig_09_plot_tree_sintetico.png` | Árbol de `scikit-learn` sobre los 12 casos |
+| `resultados/fig_10_iris_particiones.png` | Iris y particiones estratificadas |
+| `resultados/fig_11_iris_candidatos.png` | Comparación de los tres candidatos |
+| `resultados/fig_12_iris_prueba.png` | Evaluación en prueba y comparación con la referencia |
+| `resultados/fig_13_iris_arbol_seleccionado.png` | Árbol seleccionado en Iris |
+| `resultados/fig_14_costo_computacional.png` | Tiempo de ajuste, de predicción y peso de los modelos |
 
 ## Cómo ejecutar el cuaderno
 
