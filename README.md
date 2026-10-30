@@ -33,7 +33,8 @@ Los datos sintéticos están escritos dentro del cuaderno e Iris se carga con
 | `resultados/fig_01_datos_candidatas.png` | Datos sintéticos y preguntas candidatas |
 | `resultados/fig_02_divisiones_candidatas.png` | División de los 12 casos con cada pregunta candidata (ID, conteos y Gini) |
 | `resultados/fig_03_busqueda_hijo.png` | Divisiones candidatas del hijo izquierdo |
-| `resultados/fig_04_arbol_manual.png` | Árbol construido a mano |
+| `resultados/fig_04_arbol_manual.png` | Árbol manual (versión digital) |
+| `resultados/arbol_a_mano.jpg` | Foto del árbol dibujado a mano (punto 3b) |
 | `resultados/fig_05_mapa_decision.png` | Regiones de decisión y casos nuevos |
 | `resultados/fig_06_metricas_hipoteticas.png` | Matriz de confusión y métricas del ejercicio de evaluación |
 | `resultados/fig_07_clase_mayoritaria.png` | Modelo que siempre predice la clase mayoritaria |
