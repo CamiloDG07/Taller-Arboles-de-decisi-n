@@ -20,7 +20,6 @@ se usaron en su ajuste. El trabajo tiene dos partes:
    cuatro medidas, tres especies), con particiones estratificadas de
    entrenamiento, validación y prueba, tres árboles candidatos, una evaluación
    única en prueba y una comparación con una referencia de clase mayoritaria.
-   También se mide el costo computacional (tiempo y peso) de los candidatos.
 
 Los datos sintéticos están escritos dentro del cuaderno e Iris se carga con
 `scikit-learn`, por lo que no hace falta descargar ningún archivo.
@@ -29,7 +28,7 @@ Los datos sintéticos están escritos dentro del cuaderno e Iris se carga con
 
 | Archivo | Descripción |
 |---|---|
-| `taller_arboles_decision.ipynb` | Cuaderno con los cálculos, el árbol, las métricas, el experimento con Iris y el costo computacional, con sus salidas |
+| `taller_arboles_decision.ipynb` | Cuaderno con los cálculos, el árbol, las métricas y el experimento con Iris, con sus salidas |
 | `informe/informe_taller_arboles.pdf` | Informe del taller con el procedimiento, los resultados y las conclusiones |
 | `resultados/fig_01_datos_candidatas.png` | Datos sintéticos y preguntas candidatas |
 | `resultados/fig_02_divisiones_candidatas.png` | División de los 12 casos con cada pregunta candidata (grafo con ID, conteos y Gini) |
@@ -44,7 +43,6 @@ Los datos sintéticos están escritos dentro del cuaderno e Iris se carga con
 | `resultados/fig_11_iris_candidatos.png` | Comparación de los tres candidatos |
 | `resultados/fig_12_iris_prueba.png` | Evaluación en prueba y comparación con la referencia |
 | `resultados/fig_13_iris_arbol_seleccionado.png` | Árbol seleccionado en Iris |
-| `resultados/fig_14_costo_computacional.png` | Tiempo de ajuste, de predicción y peso de los modelos |
 
 ## Cómo ejecutar el cuaderno
 
@@ -54,8 +52,7 @@ Los datos sintéticos están escritos dentro del cuaderno e Iris se carga con
    `resultados/`.
 
 Todas las particiones y los modelos usan la semilla 42, por lo que los
-resultados son reproducibles. Los tiempos de la sección de costo
-computacional cambian de un equipo a otro.
+resultados son reproducibles.
 
 ## Metodología
 
